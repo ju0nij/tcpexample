@@ -1,0 +1,8 @@
+C:\Users\juyeongj\Documents\tcpexample\tcpexample\bin\Debug\tcpexample.exe.config
+C:\Users\juyeongj\Documents\tcpexample\tcpexample\bin\Debug\tcpexample.exe
+C:\Users\juyeongj\Documents\tcpexample\tcpexample\bin\Debug\tcpexample.pdb
+C:\Users\juyeongj\Documents\tcpexample\tcpexample\obj\Debug\tcpexample.csproj.AssemblyReference.cache
+C:\Users\juyeongj\Documents\tcpexample\tcpexample\obj\Debug\tcpexample.csproj.SuggestedBindingRedirects.cache
+C:\Users\juyeongj\Documents\tcpexample\tcpexample\obj\Debug\tcpexample.csproj.CoreCompileInputs.cache
+C:\Users\juyeongj\Documents\tcpexample\tcpexample\obj\Debug\tcpexample.exe
+C:\Users\juyeongj\Documents\tcpexample\tcpexample\obj\Debug\tcpexample.pdb
