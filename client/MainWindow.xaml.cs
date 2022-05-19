@@ -111,7 +111,6 @@ namespace client
             try
             {
                 socket.ConnectAsync(client.sk);
-                //client.SendMessage("ipconfig");
             }
             catch (Exception ex)
             {
@@ -169,17 +168,14 @@ namespace client
         {
             bool firstinit = true;
             public SocketAsyncEventArgs sk = new SocketAsyncEventArgs();
-            // 메시지는 개행으로 구분한다.
             private char CR = (char)0x0D;
             private char LF = (char)0x0A;
             private Socket socket;
-            // 메시지를 모으기 위한 버퍼
             private StringBuilder sb = new StringBuilder();
             MainWindow mw;
             public Client(EndPoint pep, MainWindow mainWindow)
             {
                 sk.RemoteEndPoint = pep;
-                // 접속시 발생하는 이벤트를 등록한다.
                 sk.Completed += Connected_Completed;
                 //base.SetBuffer(new byte[1024], 0, 1024);
                 //base.Completed += Client_Completed;
